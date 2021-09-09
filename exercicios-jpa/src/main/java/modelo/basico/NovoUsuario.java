@@ -13,10 +13,14 @@ public class NovoUsuario {
 
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
-        Usuario novoUsuario = new Usuario("Djalma", "djalma@lanche.com.br");
+        Usuario novoUsuario = new Usuario("Leonardo", "leonardo@lanche.com.br");
 
+        entityManager.getTransaction().begin();
         entityManager.persist(novoUsuario);
+        entityManager.getTransaction().commit();
         entityManager.close();
+
+        System.out.println("O ID gerado foi: " + novoUsuario.getId());
 
         entityManagerFactory.close();
 

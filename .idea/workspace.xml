@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2fd8ad67-52e3-4b6e-a68d-f621035ff778" name="Default Changelist" comment="Finalizado Seção 6 -&gt; Arrays e Collections">
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/br/com/cursojava2020/exerciciossb/controller/CalculadoraController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/br/com/cursojava2020/exerciciossb/controller/MetodosHttoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/br/com/cursojava2020/exerciciossb/controller/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/br/com/cursojava2020/exerciciossb/model/entities/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/br/com/cursojava2020/exerciciossb/model/repositories/ProdutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/resources/static/formulario.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/.idea/libraries/mysql_connector_java_5_1_48__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/libs/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/infra/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/AlterarUsuario1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/AlterarUsuario2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/AlterarUsuario3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/NovoProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/ObterProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/ObterUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/ObterUsuarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/RemoverUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/umpramuitos/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/umpramuitos/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/umpraum/Assento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/umpraum/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/umpraum/NovoClienteAssento2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/umpraum/ObterClienteAssento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/teste/umpramuitos/NovoPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/teste/umpramuitos/ObterPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/teste/umpraum/NovoClienteAssento1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oo/heranca/desafio/Esportivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso Java 2020.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/br/com/cursojava2020/exerciciossb/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/br/com/cursojava2020/exerciciossb/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/br/com/cursojava2020/exerciciossb/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/br/com/cursojava2020/exerciciossb/model/entities/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios-jpa/.idea/libraries/jpa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-jpa/.idea/libraries/jpa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios-jpa/exercicios-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-jpa/exercicios-jpa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios-jpa/libs/mysql-connector-java-5.1.39-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/NovoUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/NovoUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/java/modelo/basico/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios-jpa/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-jpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios-jpa/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-jpa/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios-jpa/target/classes/modelo/basico/NovoUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-jpa/target/classes/modelo/basico/NovoUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios-jpa/target/classes/modelo/basico/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios-jpa/target/classes/modelo/basico/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/arrays/DesafioArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/arrays/Exercicios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/arrays/Foreach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/arrays/Matriz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/AreaCirc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/AreaCircTeste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/DataTeste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/Equals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/PrimeiroTrauma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/ProdutoTeste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/ValorNulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/ValorVsReferencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/desafio/Comida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/desafio/Jantar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/classe/desafio/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/colecoes/ConjuntoBaguncado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/colecoes/ConjuntoComportado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/colecoes/Fila.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/colecoes/Hash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/colecoes/Lista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/colecoes/Mapa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/colecoes/Pilha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/colecoes/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/Break.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/BreakRotulado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/Continue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/ContinueRotulado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/DesafioDiaDaSemana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/DesafioFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/DesafioIf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/DesafioWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/DoWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/For1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/For2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/For3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/If.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/IfElse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/IfElseIf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/SwitchComBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/SwitchSemBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/WhileDeterminado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/WhileIndeterminado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/exercicios/Exercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/exercicios/Exercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/exercicios/Exercicio3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/controle/exercicios/Exercicio4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/Console.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/ConversaoNumeroString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/ConversaoStringNumero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/ConversaoTipoPrimitivoNumerico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/DesafioCalculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/DesafioConversao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/Import.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/Inferencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/NotacaoPonto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/PrimitivoVsObjeto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/TipoString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/TipoStringEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/TiposPrimitivos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/Wrappers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/exercicios/Exercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/exercicios/Exercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/exercicios/Exercicio3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/exercicios/Exercicio4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/exercicios/Exercicio5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/exercicios/Exercicio6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/operadores/Aritmeticos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/operadores/Atribuicao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/operadores/DesafioAritmeticos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/operadores/DesafioLogicos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/operadores/Logicos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/operadores/Relacionais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/operadores/Ternario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/fundamentos/operadores/Unarios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso Java 2020/oo/heranca/desafio/Ferrari.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curso Java 2020/oo/heranca/desafio/Ferrari.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/DesafioArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Exercicios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Foreach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Matriz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/AreaCirc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/AreaCircTeste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/DataTeste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/Equals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/PrimeiroTrauma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/ProdutoTeste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/ValorNulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/ValorVsReferencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/desafio/Comida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/desafio/Jantar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/desafio/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/ConjuntoBaguncado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/ConjuntoComportado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/Fila.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/Hash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/Lista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/Mapa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/Pilha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/Break.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/BreakRotulado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/Continue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/ContinueRotulado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/DesafioDiaDaSemana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/DesafioFor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/DesafioIf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/DesafioWhile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/DoWhile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/For1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/For2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/For3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/If.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/IfElse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/IfElseIf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/SwitchComBreak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/SwitchSemBreak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/WhileDeterminado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/WhileIndeterminado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/exercicios/Exercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/exercicios/Exercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/exercicios/Exercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/exercicios/Exercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Console.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/ConversaoNumeroString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/ConversaoStringNumero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/ConversaoTipoPrimitivoNumerico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/DesafioCalculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/DesafioConversao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Import.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Inferencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/NotacaoPonto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/PrimitivoVsObjeto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/TipoString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/TipoStringEquals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/TiposPrimitivos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Wrappers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/exercicios/Exercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/exercicios/Exercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/exercicios/Exercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/exercicios/Exercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/exercicios/Exercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/exercicios/Exercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/operadores/Aritmeticos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/operadores/Atribuicao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/operadores/DesafioAritmeticos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/operadores/DesafioLogicos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/operadores/Logicos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/operadores/Relacionais.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/operadores/Ternario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/operadores/Unarios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oo/heranca/desafio/Ferrari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oo/heranca/desafio/Ferrari.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mLBtaZrvP0OgRLWO34sqbBdps9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15121952" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="classe.desafio" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CarroTeste">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oo.heranca.teste.CarroTeste" />
+      <module name="Curso Java 2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oo.heranca.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CursoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oo.composicao.CursoTeste" />
+      <module name="Curso Java 2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oo.composicao.desafio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oo.heranca.teste.Jogo" />
+      <module name="Curso Java 2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oo.heranca.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colecoes.Lista" />
+      <module name="Curso Java 2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="colecoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oo.composicao.desafio.Main" />
+      <module name="Curso Java 2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oo.composicao.desafio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CarroTeste" />
+        <item itemvalue="Application.Jogo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CursoTeste" />
+        <item itemvalue="Application.Lista" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fd8ad67-52e3-4b6e-a68d-f621035ff778" name="Default Changelist" comment="" />
+      <created>1609263207930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609263207930</updated>
+      <workItem from="1609263209800" duration="17337000" />
+      <workItem from="1609950398547" duration="1494000" />
+      <workItem from="1609960281645" duration="2724000" />
+      <workItem from="1610296255150" duration="8203000" />
+      <workItem from="1610372881108" duration="9000" />
+      <workItem from="1610412347566" duration="4510000" />
+      <workItem from="1610671330595" duration="8585000" />
+      <workItem from="1610741711798" duration="19000" />
+      <workItem from="1610748874076" duration="3349000" />
+      <workItem from="1610776515169" duration="28000" />
+      <workItem from="1610781057386" duration="422000" />
+      <workItem from="1611201984081" duration="1738000" />
+      <workItem from="1611633233493" duration="634000" />
+      <workItem from="1611709032819" duration="2230000" />
+      <workItem from="1611883089260" duration="3512000" />
+      <workItem from="1612317729697" duration="2662000" />
+      <workItem from="1612356521933" duration="4000" />
+      <workItem from="1612623260086" duration="39000" />
+      <workItem from="1612624050605" duration="614000" />
+      <workItem from="1613059031812" duration="622000" />
+      <workItem from="1613437868521" duration="2884000" />
+      <workItem from="1613571864680" duration="353000" />
+      <workItem from="1613932032371" duration="5727000" />
+      <workItem from="1614117481224" duration="1682000" />
+      <workItem from="1614781868605" duration="60000" />
+      <workItem from="1615254397947" duration="3003000" />
+      <workItem from="1615414204876" duration="9756000" />
+      <workItem from="1615762161646" duration="2728000" />
+      <workItem from="1615827716679" duration="1371000" />
+      <workItem from="1616012443695" duration="898000" />
+      <workItem from="1616074217717" duration="758000" />
+      <workItem from="1616081594709" duration="2283000" />
+      <workItem from="1616172736054" duration="374000" />
+      <workItem from="1616264005960" duration="106000" />
+      <workItem from="1616265165345" duration="2310000" />
+      <workItem from="1616363446554" duration="45000" />
+      <workItem from="1616986181472" duration="177000" />
+      <workItem from="1616986768240" duration="5193000" />
+      <workItem from="1617026037163" duration="229000" />
+      <workItem from="1617037853316" duration="2763000" />
+      <workItem from="1618421526692" duration="946000" />
+      <workItem from="1618441979377" duration="2941000" />
+      <workItem from="1618490291130" duration="217000" />
+      <workItem from="1618492882723" duration="13000" />
+      <workItem from="1618497056977" duration="2000" />
+      <workItem from="1618497404268" duration="25000" />
+      <workItem from="1619040703270" duration="2724000" />
+      <workItem from="1620415978073" duration="600000" />
+      <workItem from="1620668665972" duration="463000" />
+      <workItem from="1620696748918" duration="1020000" />
+      <workItem from="1620700701127" duration="2567000" />
+      <workItem from="1621603366453" duration="59000" />
+      <workItem from="1621950998988" duration="26000" />
+      <workItem from="1623416563026" duration="48000" />
+      <workItem from="1624594097585" duration="701000" />
+      <workItem from="1624941266223" duration="88000" />
+      <workItem from="1625152597671" duration="617000" />
+      <workItem from="1628049313812" duration="756000" />
+      <workItem from="1628374287257" duration="282000" />
+      <workItem from="1628376952330" duration="86000" />
+      <workItem from="1629809505944" duration="48000" />
+      <workItem from="1631157986619" duration="200000" />
+      <workItem from="1631158209250" duration="304000" />
+    </task>
+    <task id="LOCAL-00001" summary="Finalizado Seção 6 -&gt; Arrays e Collections">
+      <created>1615433440704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615433440704</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finalizado Seção 6 -&gt; Arrays e Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizado Seção 6 -&gt; Arrays e Collections" />
+  </component>
+</project>

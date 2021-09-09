@@ -3,7 +3,6 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libs/antlr-2.7.7.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/jaxb-runtime-2.3.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/mysql-connector-java-5.1.39-bin.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/javax.persistence-api-2.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/jaxb-api-2.3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/txw2-2.3.1.jar!/" />
